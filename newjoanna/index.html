@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content ="width=device=width, initial-scale=1.0">
+     <title>Aklatan</title>
+     <link rel="stylesheet" href="../Filipino Authors/nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../Filipino Authors/logo.png" alt="logo">
+        </div>
+            <ul>
+                <li><a href="../Filipino Authors/paksa.html">paksa</a></li>
+                <li><a href="../Filipino Authors/authors.html">manunulat</a></li>
+                <li><a href="../website/index.html">ebolusyon</a></li>
+                <li><a href="../Don Pepe/DonPepe.html">aklatan</a></li>
+            </ul>
+    </nav>
+    <div class="container">
+        <input  type="checkbox" id="click" hidden>
+        <!--<label for="click">
+            <i class='menu-btn bx bx-menu'></i>
+            <i class='close-btn bx bx-x-circle'></i>
+        </label>
+    -->
+        <div class="sidenav">
+      
+    <!--<div class="menu_text">
+        <p> MENU</p>
+    </div>
+
+    <div class="icon_items">
+
+        <ul>
+            <li>
+                <li class="active">
+                <i class='bx bxs-home'></i>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <i class='bx bxs-archive-in'></i>
+                <a href="#">ARCHIVE</a>
+            </li>
+            <li>
+                <i class='bx bxs-share-alt'></i>
+                <a href="#">SHARE</a>
+            </li>
+            <li>
+                <i class='bx bxs-download'></i>
+                <a href="#">DOWNLOAD</a>
+            </li>
+            <li>
+                <i class='bx bxs-cog'></i>
+                <a href="#">SETTING</a>
+            </li>
+            <li>
+                <i class='bx bxs-help-circle'></i>
+                <a href="#">HELP</a>
+            </li>
+        </ul>
+    </div>
+        </div>-->
+        </div>
+        <script src="script.js"></script>
+
+    <div class="box">
+        <div class="column" id="documents-section">
+            <i class='bx bxs-file'></i> 
+            <h3> DOCUMENTS </h3>
+            
+        </div>
+        <div class="column" id="video-section">
+            <i class='bx bxs-videos'></i>
+            <h3>VIDEO</h3>
+          
+        </div>
+        <div class="column" id="audio-section">
+            <i class='bx bxs-microphone'></i>
+            <h3>AUDIO</h3>
+        </div>
+      </div>
+
+    <script>
+        document.getElementById("documents-section").addEventListener("click", () => {
+            window.location.href = "upload.html";
+        });
+    </script>
+    <script>
+        document.getElementById("video-section").addEventListener("click", () => {
+            window.location.href = "video.html";
+        });
+    </script>
+    <script>
+        document.getElementById("audio-section").addEventListener("click", () => {
+            window.location.href = "microphone.html";
+        });
+    </script>
+   
+</body>
+
+</html>

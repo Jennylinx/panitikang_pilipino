@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Upload Centered</title>
+  <link rel="stylesheet" href="audio.css">
+</head>
+<body>
+  <div class="center-column">
+    <div class="upload-box">
+      <input type="file" id="audioUpload" accept="audio/*" multiple>
+      <label for="audioUpload">Click To Audio Files</label>
+    </div> <h1>Uploaded Audio </h1>
+    <div id="audioPreview" class="preview">
+    </div>
+  </div> 
+  
+        <button id="back-btn" class="back-button">Back</button>
+            </div>
+            
+        <script>
+            document.getElementById("back-btn").addEventListener("click", () => {
+                window.location.href = "index.html"; 
+            });
+        </script>
+
+  <script src="audio.js"></script>
+</body>
+</html>
+

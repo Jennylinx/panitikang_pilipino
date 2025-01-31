@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Itim&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:"Istok Web", serif;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(download.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+    
+}
+
+.box{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.column {
+  
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #ffffffd5;
+    border-radius: 8px;
+    height: 270px;
+    width: 235px;
+    background: #000000ab;
+    margin: 20px;
+    text-align: center; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+    transition: transform 0.2s ease; 
+    box-shadow: 0 4px 6px rgba(178, 33, 33, 0.1);
+    margin-top: 15%;
+    
+    
+}
+.column i {
+
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+.column h3{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+.column:hover {
+    transform: scale(1.1); 
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+} 
+
+/*.container .sidenav{
+    width: 5%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    padding: 12px 1px;
+    background-color: #000;
+    transition: width 0.6s ;
+}
+label .close-btn{
+    display: none;
+}
+.sidenav .menu_text{
+    margin: 10px;
+}
+.sidenav .menu_text p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 70px;
+    
+}
+.sidenav .icon_items ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.sidenav .icon_items ul li{
+    cursor: pointer;
+    margin: 4px;
+    padding: 12px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+
+}
+.icon_items .active,
+.sidenav .icon_items ul li:hover{
+    background: #119aaf;
+}
+.sidenav .icon_items ul li i{
+    font-size: 26px;
+    padding: 0 12px;
+}
+.sidenav .icon_items ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 18px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3 ease;
+}
+#click{
+    width: 20px;
+}
+
+.container label{
+    position: absolute;
+    left: 2%;
+    top: 1.5%;
+    font-size: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+#click:checked ~ .sidenav{
+   width: 260px;
+
+}
+#click:checked ~ .sidenav .icon_items ul a{
+    opacity: 1;
+    pointer-events: auto;
+}
+#click:checked ~ label{
+    left: 1%;
+}
+.click:checked ~ label .close-btn{
+    display: block;
+}
+.click:checked ~ label .menu-btn{
+    display: none;
+}
+*/

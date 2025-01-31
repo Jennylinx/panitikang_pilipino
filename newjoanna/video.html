@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content ="width=device=width, initial-scale=1.0">
+     <title> Responsive website</title>
+    <link rel="stylesheet" href="video.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+   <h3 class="heading">VIDEO PLAYLIST</h3>
+
+   <div class="container">
+
+    <div class="main-video">
+        <div class="video">
+            <video src="C:\Users\Ella\Downloads\Time Rewind.mp4" controls muted authoplay></video>
+            <h3 class="title"> JOSE RIZAL "Time Rewind"</h3>
+        </div>
+    </div>
+    <div class="upload-column">
+        <div class="upload-container">
+             <button id="upload-btn">Click To Upload Video</button>
+             <input type="file" id="video-upload" accept="video/*" hidden>
+         </div>
+
+        <div class="video-list">
+        <div class="vid ">
+            <video src= "C:\Users\Ella\Downloads\Time Rewind.mp4"controls muted authoplay></video>
+            <h3 class="title"> JOSE RIZAL "Time Rewind"</h3>
+        </div>
+        <div class="vid">
+            <video src="C:\Users\Ella\Downloads\ANG ALAMAT NG BULKANG MAYON .mp4" controls muted authoplay></video>
+            <h3 class="title"> Ang Alamat ng Bulkang Mayon </h3>
+        </div>
+        <div class="vid">
+            <video src="C:\Users\Ella\Downloads\Filipino Short Story.mp4" controls muted authoplay></video>
+            <h3 class="title"> Ang Alamat ng Pakwan - Pinoy / Filipino Short Story </h3>
+        </div>
+        <div class="vid">
+            <video src="C:\Users\Ella\Downloads\Si Pagong At Ang Matsing .mp4" controls muted authoplay></video>
+            <h3 class="title"> Si Pagong at ang Matsing </h3>
+        </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\Alamat ng Bohol ni Patrocinio V. Villafuerte.mp4" controls muted authoplay></video>
+        <h3 class="title"> Alamat ng Bohol ni Patrocinio V. Villafuerte </h3>
+    </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\EBOLUSYON ng WATAWAT ng Pilipinas (1898-2022) .mp4" controls muted authoplay></video>
+        <h3 class="title"> EBOLUSYON NG WATAWAT NG PILINAS (1898 - 2022) </h3>
+    </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\Saan nagmula ang Pilipinas_ .mp4" controls muted authoplay></video>
+        <h3 class="title"> Saan nagmula ang Pilipinas? | Mga teorya ng pinagmulan ng Pilipinas | Misterio Ph</h3>
+    </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\Heneral Luna (2015) _ Full Movie _ Jerrold Tarog _ John Arcilla _ Mon Confiado _ Arron Villaflor.mp4"controls muted authoplay></video>
+        <h3 class="title"> Heneral Luna (2015) _ Full Movie _ Jerrold Tarog _ John Arcilla _ Mon Confiado _ Arron Villaflor</h3>
+    </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\GOMBURZA (An NHCP Documentary).mp4" controls muted authoplay></video>
+        <h3 class="title"> GOMBURZA (An NHCP Documentary)</h3>
+    </div>
+    <div class="vid">
+        <video src="C:\Users\Ella\Downloads\The History of The Philippines Before Magellan (3000 BCE - 1521 CE).mp4"controls muted authoplay></video>
+        <h3 class="title"> The History of The Philippines Before Magellan (3000 BCE - 1521 CE) </h3>
+    </div>
+  </div>
+</div>
+
+<button id="back-btn" class="back-button">Back</button>
+</div>
+<script>
+       
+    document.getElementById("back-btn").addEventListener("click", () => {
+        window.location.href = "index.html#menu"; 
+    });
+</script>
+    <script src="video.js"></script>
+
+</body>
+</html>
